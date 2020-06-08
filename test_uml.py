@@ -1,6 +1,3 @@
-class A:
-    def __init__(self):
-        self.b = B()
 
 class BaseEstimator:
     def __init__(self):
@@ -63,11 +60,8 @@ class NN(BaseEstimator):
     
     def predict():
         pass
-
-
-MYVAR = 100
-a = A()
-b = B()
-
-def calculate():
-    return MYVAR
+    
+class Layer:
+    def __init__(self, estimatorList):
+        pass
+    
